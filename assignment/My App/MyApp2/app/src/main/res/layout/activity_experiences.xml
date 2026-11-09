@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDIVIDUAL EXPERIENCES"
+            android:textColor="#00E5FF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnVR"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="25dp"
+            android:text="VIRTUAL REALITY EXPERIENCE&#10;&#10;R750"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7C3AED" />
+
+        <Button
+            android:id="@+id/btnRacing"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:text="RACING SIMULATOR CHALLENGE&#10;&#10;R750"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2563EB" />
+
+        <Button
+            android:id="@+id/btnEscape"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:text="ESCAPE ROOM CHALLENGE&#10;&#10;R750"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#DB2777" />
+
+    </LinearLayout>
+
+</ScrollView>

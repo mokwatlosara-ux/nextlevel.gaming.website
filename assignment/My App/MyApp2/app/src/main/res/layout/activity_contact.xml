@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT US"
+            android:textColor="#00E5FF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="NEXT LEVEL GAMING &amp; ESPORTS ARENA"
+            android:textColor="#A855F7"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Phone: 010 000 0000&#10;&#10;Email: info@nextlevelgaming.co.za&#10;&#10;Location: Johannesburg, Gauteng, South Africa"
+            android:textColor="#E5E7EB"
+            android:textSize="17sp"
+            android:lineSpacingExtra="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="FOLLOW US"
+            android:textColor="#00E5FF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="Facebook"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="Instagram"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#DB2777" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="TikTok"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#111827" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="OPENING HOURS&#10;&#10;Monday - Friday: 10:00 - 22:00&#10;Saturday: 09:00 - 23:00&#10;Sunday: 10:00 - 20:00"
+            android:textColor="#D1D5DB"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

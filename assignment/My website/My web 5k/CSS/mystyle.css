@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d1020;
+    color: white;
+}
+
+a {
+    color: #00e5ff;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #090b16;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+header img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00e5ff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #00e5ff;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 23%;
+    background-color: #171b2e;
+    border: 1px solid #343c55;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.wide {
+    width: 31%;
+}
+
+.button {
+    background-color: #00e5ff;
+    color: black;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.price {
+    color: #00e5ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detail {
+    background-color: #171b2e;
+    border: 1px solid #343c55;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.detail img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.box {
+    background-color: #171b2e;
+    border: 1px solid #343c55;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #343c55;
+    padding: 6px;
+    text-align: left;
+}
+
+#formMessage {
+    color: #ff8c9c;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+footer {
+    background-color: #090b16;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer a {
+    margin: 0 8px;
+}
+
+@media (max-width: 700px) {
+    .card, .wide {
+        width: 100%;
+    }
+
+    .detail img {
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}

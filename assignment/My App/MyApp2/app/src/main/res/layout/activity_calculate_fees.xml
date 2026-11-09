@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALCULATE YOUR QUOTE"
+            android:textColor="#00E5FF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Select one or more bookings to calculate your quotation."
+            android:textColor="#9CA3AF"
+            android:textSize="15sp" />
+
+        <!-- Customer Details -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="CUSTOMER DETAILS"
+            android:textColor="#A855F7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6B7280"
+            android:backgroundTint="#00E5FF" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6B7280"
+            android:backgroundTint="#00E5FF" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6B7280"
+            android:backgroundTint="#00E5FF" />
+
+        <!-- Bookings -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="SELECT BOOKINGS"
+            android:textColor="#A855F7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbUltimate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Ultimate Gamer Pass - R1 500"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbVIP"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="VIP Gaming Experience - R1 500"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbEsports"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Esports Training Package - R1 500"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Birthday Party Package - R1 500"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbVR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Virtual Reality Experience - R750"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbRacing"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Racing Simulator Challenge - R750"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/cbEscape"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Escape Room Challenge - R750"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="CALCULATE TOTAL"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#16A34A" />
+
+        <!-- Quote -->
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:padding="20dp"
+            android:text="Your quotation will appear here."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:background="#171B2E" />
+
+    </LinearLayout>
+
+</ScrollView>

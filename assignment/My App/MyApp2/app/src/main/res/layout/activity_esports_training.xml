@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESPORTS TRAINING PACKAGE"
+            android:textColor="#00E5FF"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R1 500"
+            android:textColor="#22C55E"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="IMPROVE YOUR COMPETITIVE GAMING SKILLS"
+            android:textColor="#A855F7"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="INCLUDES&#10;&#10;- Strategy coaching&#10;- Team communication&#10;- Match analysis&#10;- Practice sessions&#10;- Performance feedback"
+            android:textColor="#E5E7EB"
+            android:textSize="17sp"
+            android:lineSpacingExtra="7dp" />
+
+    </LinearLayout>
+
+</ScrollView>

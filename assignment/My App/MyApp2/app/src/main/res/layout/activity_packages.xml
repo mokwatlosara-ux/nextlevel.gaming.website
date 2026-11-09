@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAMING PACKAGES"
+            android:textColor="#00E5FF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Choose your ultimate gaming experience."
+            android:textColor="#9CA3AF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnUltimate"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:text="ULTIMATE GAMER PASS&#10;&#10;R1 500"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7C3AED" />
+
+        <Button
+            android:id="@+id/btnVIP"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:text="VIP GAMING EXPERIENCE&#10;&#10;R1 500"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2563EB" />
+
+        <Button
+            android:id="@+id/btnEsports"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:text="ESPORTS TRAINING&#10;&#10;R1 500"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#0891B2" />
+
+        <Button
+            android:id="@+id/btnBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:text="BIRTHDAY PARTY&#10;&#10;R1 500"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#DB2777" />
+
+    </LinearLayout>
+
+</ScrollView>

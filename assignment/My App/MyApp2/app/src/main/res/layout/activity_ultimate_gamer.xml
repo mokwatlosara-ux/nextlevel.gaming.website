@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ULTIMATE GAMER PASS"
+            android:textColor="#00E5FF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="R1 500"
+            android:textColor="#22C55E"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="UNLIMITED GAMING ACCESS FOR A FULL DAY"
+            android:textColor="#A855F7"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="INCLUDES&#10;&#10;- PC gaming&#10;- Console gaming&#10;- High-speed internet&#10;- Snack voucher&#10;- Tournament entry"
+            android:textColor="#E5E7EB"
+            android:textSize="17sp"
+            android:lineSpacingExtra="7dp" />
+
+    </LinearLayout>
+
+</ScrollView>

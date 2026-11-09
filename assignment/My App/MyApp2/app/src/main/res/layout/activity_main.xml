@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090B16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:contentDescription="Next Level Gaming logo"
+            android:src="@drawable/abc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="NEXT LEVEL"
+            android:textColor="#00E5FF"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GAMING &amp; ESPORTS ARENA"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="LEVEL UP YOUR GAMING EXPERIENCE"
+            android:textColor="#A855F7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Gaming • Esports • VR • Racing • Events"
+            android:textColor="#B8C1D1"
+            android:textSize="15sp" />
+
+        <!-- Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerGaming"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:background="#171B2E" />
+
+        <!-- Navigation buttons -->
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="ABOUT US"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7C3AED" />
+
+        <Button
+            android:id="@+id/btnPackages"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="GAMING PACKAGES"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB" />
+
+        <Button
+            android:id="@+id/btnExperiences"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="INDIVIDUAL EXPERIENCES"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0891B2" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="CALCULATE YOUR QUOTE"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#16A34A" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:text="CONTACT US"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#DB2777" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Johannesburg • Established 2023"
+            android:textColor="#6B7280"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc" />
+
+    </LinearLayout>
+
+</ScrollView>
